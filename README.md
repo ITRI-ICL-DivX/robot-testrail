@@ -12,4 +12,6 @@ The max query count is 100
 https://github.com/gurock/testrail-api/tree/master/python/2.x
 
 # Usage
-python robot-testrail.py --folder=./UAT --pid=PROJECT_ID --user=USER --pwd=PWD --testrail=https://YOUR_IP/testrail
+python robot-testrail.py --folder=./UAT --pid=PROJECT_ID --user=USER --pwd=PWD --testrail=https://YOUR_IP/testrail  
+pid can get from the URL of testrail project  
+Eg. A URL of a testproject is http://10.116.117.201/testrail/index.php?/projects/overview/1 , than the pid is "1"  
